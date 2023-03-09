@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+  }
+  /** HEADER nav-bar**/
+
+.row{
+  display: block;
+  width: 100%;
+}
+.navbar-brand{
+  padding: 15px;
+}
+.navbar {
+    background-color: #6d94e9;
+    padding: 0;
+  }
+
+  .navbar a, .navbar a:hover {
+    color: white;
+    font-weight: bolder;
+  }
+
+  .ml-auto, .mx-auto {
+    margin-left: 0 !important;
+    text-align: center;
+}
+
+.navbar-collapse {
+  background-color: #6d94e9;
+  cursor: pointer;
+}
+
+.navbar-toggler-icon .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    margin:6px 8px 4px 4px;
+    background-color: white;
+  }
+
+.navbar-toggler {
+    margin: 15px;
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: .25rem; 
+}
+/* HOME PAGE */
+h1{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.col{
+  float: left;
+  background-color: #e8e8c6;
+  margin-left: auto;
+  margin-top: 15px;
+  margin-right: auto;
+  color: black;
+  text-align: justify;
+} 
+
+.food{
+  color: black;
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: center;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .navbar-collapse {
+    background-color: #6d94e9;
+    cursor: pointer;
+  }
+
+   #my-nav {
+  border: none;
+} 
+.col {
+    width: 30%;
+  /* float: left; */
+    width: 30%; 
+    height: auto;
+    margin-left: 35px;
+    margin-top: 15px;
+    color: black;
+}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-collapse {
+    background-color: #6d94e9;
+    cursor: pointer;
+  }
+
+   #my-nav {
+  border: none;
+} 
+
+#col-1, #col-2 {
+  width: 45%;
+  margin-left:45px;
+  margin-top: 35px;
+  
+}
+#col-2{
+  margin-left: 15px;
+}
+
+#col-3{
+   width: 92%;
+   margin-left: 45px;
+}
+
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-collapse {
+    background-color: #6d94e9;
+    cursor: pointer;
+  }
+
+   #my-nav {
+  border: none;
+} 
+
+.row{
+  margin: 10px 10px;
+}
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+#my-nav {
+  border: 1px solid white;
+} 
+#chicken:hover{
+  background-color: rgb(126, 126, 132);
+}
+#beef:hover{
+  background-color: rgb(126, 126, 132);
+}
+#sushi:hover{
+  background-color: rgb(126, 126, 132);
+}
+.row{
+  margin: 20px 20px;
+}
+
+}
